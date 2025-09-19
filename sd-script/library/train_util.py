@@ -3932,7 +3932,7 @@ def add_training_arguments(parser: argparse.ArgumentParser, support_dreambooth: 
         help="path to checkpoint of vae to replace / VAEを入れ替える場合、VAEのcheckpointファイルまたはディレクトリ",
     )
 
-    parser.add_argument("--max_train_steps", type=int, default=1600, help="training steps / 学習ステップ数")
+    parser.add_argument("--max_train_steps", type=int, default=3200, help="training steps / 学習ステップ数")
     parser.add_argument(
         "--max_train_epochs",
         type=int,
